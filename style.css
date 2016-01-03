@@ -554,9 +554,11 @@ h5 {
   align-items: center;
   height: 100%;
   width: 100%;
+/*
   background-image: url(IMG/logobg.jpg);
   background-size: cover;
   background-attachment: fixed;
+*/
 }
 
 .logo-container {
