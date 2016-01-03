@@ -4,6 +4,10 @@
   padding: 0em;
 }
 
+div#preload {
+    display: none;
+}
+
 .idea1 {
   box-sizing: border-box;
   border: 0.1em dashed red;
