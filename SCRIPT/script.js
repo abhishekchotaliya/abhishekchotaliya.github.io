@@ -5,22 +5,23 @@ $(document).ready(function () {
 
     $("body").addClass("preloaderactive");
 
-    /*parallax*/
-    if($window.width()>700){
-        
-        $(window).scroll(function () {
+    /*
+        parallax
+    
+        if($window.width()>700){
 
-            var s1 = $(this).scrollTop();
+            $(window).scroll(function () {
 
-            $('.firstpage-holder').css({
+                var s1 = $(this).scrollTop();
 
-                /*'transform' : 'translate(0px, '+ s1 / 45 +'%)'*/
-                'transform': 'translate(0px, -' + s1 / 25 + '%)'
+                $('.firstpage-holder').css({
+                    'transform': 'translate(0px, -' + s1 / 25 + '%)'
+
+                });
 
             });
-
-        });
-    }
+        }
+    */
 
     
     $(".behance-button").hover(function () {
