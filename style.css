@@ -28,10 +28,6 @@ div#preload {
   margin-right: auto;
 }
 
-.megacontainer {
-    max-width: 1350px !important;
-}
-
 a {
   text-decoration: none;
 }
@@ -85,6 +81,12 @@ li {
   width. Accepts any unit.
   That's it. Have fun.
 \*-----------------------------------*/
+.megacontainer{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1360px !important;
+}
+
 .grid {
   list-style: none;
   margin-left: -10px;
