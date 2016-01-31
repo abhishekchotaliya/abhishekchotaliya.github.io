@@ -1,27 +1,4 @@
 $(document).ready(function () {
-    
-    $window=$(window);
-    /*loader*/
-
-    $("body").addClass("preloaderactive");
-
-    /*
-        parallax
-    
-        if($window.width()>700){
-
-            $(window).scroll(function () {
-
-                var s1 = $(this).scrollTop();
-
-                $('.firstpage-holder').css({
-                    'transform': 'translate(0px, -' + s1 / 25 + '%)'
-
-                });
-
-            });
-        }
-    */
 
     
     $(".behance-button").hover(function () {
@@ -98,7 +75,7 @@ $(document).ready(function () {
 
         $('html, body').stop().animate({
             'scrollTop': $target.offset().top
-        }, 3000, 'swing', function () {
+        }, 1500, 'swing', function () {
             window.location.hash = target;
         });
     });
@@ -112,7 +89,7 @@ $(document).ready(function () {
 
         $('html, body').stop().animate({
             'scrollTop': $target.offset().top
-        }, 2500, 'swing', function () {
+        }, 1500, 'swing', function () {
             window.location.hash = target;
         });
     });
@@ -124,6 +101,6 @@ $(document).ready(function () {
 $(window).load(function () {
 
     $("#preloader").fadeOut();
-    $(".forest_preloader").delay(200).fadeOut();
+    $(".forest_preloader").delay(100).fadeOut();
     $("body").removeClass("preloaderactive");
 });
