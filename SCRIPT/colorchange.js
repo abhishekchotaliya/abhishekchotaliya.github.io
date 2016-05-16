@@ -3,7 +3,7 @@ var colors = new Array(
 
 var step = 0;
 var colorIndices = [0, 1, 2, 3];
-var gradientSpeed = 0.005;
+var gradientSpeed = 0.01;
 
 function updateGradient() {
 
@@ -25,7 +25,7 @@ function updateGradient() {
   var b2 = Math.round(istep * c1_0[2] + step * c1_1[2]);
   var color2 = "rgb(" + r2 + "," + g2 + "," + b2 + ")";
 
-  $('.firstpage-holder').css({
+  $('.hello-container').css({
     background: "-webkit-gradient(linear, left top, right top, from(" + color1 + "), to(" + color2 + "))"
   }).css({
     background: "-moz-linear-gradient(left, " + color1 + " 0%, " + color2 + " 100%)"
@@ -42,4 +42,4 @@ function updateGradient() {
   }
 }
 
-setInterval(updateGradient, 10);
+setInterval(updateGradient, 15);
