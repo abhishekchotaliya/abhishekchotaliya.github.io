@@ -1085,6 +1085,7 @@ h6 {
 }
 
 .button-data {
+  cursor: default;
   opacity: 0;
   z-index: 98;
   height: 50px;
