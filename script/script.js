@@ -11,8 +11,9 @@ $(window).scroll(function(){
     
 });
 
-$(".button-box").hover(function () {
-            $(this).parent().children().css("opacity", "1");
+//$(".button-box").hover(function () {
+$(".button-container").hover(function () {
+            $(this).parent().parent().parent().children().css("opacity", "1");
             //$(this).parent().children().css("display", "block");
             //$(this).parent().children().fadeIn(300);
         },
