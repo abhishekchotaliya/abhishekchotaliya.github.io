@@ -1,0 +1,374 @@
+:root {
+  --regular: 400;
+  --bold: 700;
+}
+
+.blue {
+  color: #6646ED;
+}
+
+.green {
+  color: #0BD8B8;
+}
+
+.red {
+  color: #FB4132;
+}
+
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Nunito', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #F1F6F9 !important;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  font-size: 60px;
+  font-weight: var(--bold);
+  color: #333;
+}
+
+h2 {
+  text-align: center;
+  font-size: 20px;
+  font-weight: var(--bold);
+  color: #333;
+}
+
+h3 {
+  text-align: center;
+  font-size: 15px;
+  font-weight: var(--regular);
+  color: #777;
+  line-height: 30px;
+}
+
+.small {
+  transform: scale(00.9, 00.9);
+}
+.dim {
+  opacity: 0.5;
+}
+
+@keyframes wave-animation {
+    0% { transform: rotate( 0.0deg) }
+   10% { transform: rotate(24.0deg) }
+   20% { transform: rotate(-8.0deg) }
+   30% { transform: rotate(12.0deg) }
+   40% { transform: rotate(-4.0deg) }
+   50% { transform: rotate(10.0deg) }
+   60% { transform: rotate( 0.0deg) }
+  100% { transform: rotate( 0.0deg) }
+}
+
+@keyframes heartbeat {
+  0% { transform: scale( 0.9 ) }
+  20% { transform: scale( 1.1 ) }
+  40% { transform: scale( 0.9 ) }
+  60% { transform: scale( 1.1 ) }
+  80% { transform: scale( 0.9 ) }
+  100% { transform: scale( 0.9 ) }
+}
+
+.front-section {
+  height: 100vh;
+  width: 100%;
+  background-color: white;
+}
+
+header {
+  width: calc(100% - 100px);
+  padding: 10px 50px;
+  height: 50px;
+  max-height: 70px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-content-left {
+  display: flex;
+  align-items: center;
+}
+
+.logo-container {
+  height: 41px;
+  width: 60px;
+  background-image: url('./assets/logo.png');
+}
+
+.logo-drop {
+  margin: 0 20px;
+  height: 30px;
+  width: 2px;
+  background-color: #EEEEEE;
+}
+
+.name {
+  font-size: 20px;
+  font-weight: var(--bold);
+}
+.occ {
+  margin-top: 2px;
+  margin-left: 20px;
+  font-size: 15px;
+  font-weight: var(--regular);
+}
+
+.header-content-right {
+  cursor: pointer;
+}
+
+.hand {
+  font-size: 20px;
+  display: inline-block;
+  animation-name: wave-animation;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+.hero-content {
+  height: 80px;
+  margin-top: 50px;
+  width: 100%;
+}
+
+.repeat-text {
+  margin-top: 30px;
+  margin-left: -50px;
+  position: absolute;
+  display: inline-block;
+  height: 79px;
+  width: 177px;
+  background-image: url('./assets/repeat.svg');
+}
+
+.hero-graphic {
+  height: calc(100vh - 70px - 80px - 50px);
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  background-image: url('./assets/colors.svg');
+}
+
+
+.content-max-width {
+  max-width: 1150px !important;
+}
+
+.info-section {
+  margin: 150px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url('./assets/bg-graphic.svg');
+}
+
+.info-content {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.info-content.second {
+  margin-top: 50px;
+}
+
+.graphic {
+  flex: 1;
+  min-width: 219px;
+  flex-shrink: 0;
+}
+
+.dev-expl {
+  flex: 3;
+}
+
+h3.expl {
+  margin-top: 15px;
+}
+
+.certified {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 2px 10px;
+  font-size: 12px;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.05);
+  font-weight: var(--bold);
+}
+
+.dev-graphic {
+  height: 219px;
+  width: 219px;
+  background-image: url('./assets/dev-graphic.svg');
+}
+
+.design-graphic {
+  height: 219px;
+  width: 219px;
+  background-image: url('./assets/design-graphic.svg');
+}
+
+
+.all-center-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heart {
+  font-size: 20px;
+  display: inline-block;
+  animation-name: heartbeat;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+.worked-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 0 22px 0;
+  background-color: rgba(0, 0, 0, 0.03);
+  border-radius: 10px;
+}
+
+.worked-drop {
+  margin: 15px 0;
+  height: 2px;
+  width: 50px;
+  border-radius: 1px;
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.reach-out-container {
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+}
+
+.platforms {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: row;
+}
+
+.platform {
+  cursor: pointer;
+  margin: 0 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 84px;
+  width: 200px;
+  background-color: white;
+  border-radius: 10px;
+  border: 4px solid #F1F6F9;
+  transition-duration: 0.25s;
+}
+
+.whatsapp:hover {
+  box-shadow: 0 0 0px 2px #417A6850;
+}
+.email:hover {
+  box-shadow: 0 0 0px 2px #A4595950;
+}
+.linkedin:hover {
+  box-shadow: 0 0 0px 2px #596FA450;
+}
+.dribbble:hover {
+  box-shadow: 0 0 0px 2px #A4597350;
+}
+
+.platform-text {
+  text-align: left;
+  font-size: 18px;
+  font-weight: var(--bold);
+}
+
+.whatsapp .platform-text {
+  color: #417A68;
+}
+.email .platform-text {
+  color: #A45959;
+}
+.linkedin .platform-text {
+  color: #596FA4;
+}
+.dribbble .platform-text {
+  color: #A45973;
+}
+
+.platform-icon {
+  margin-right: 8px;
+  height: 34px;
+  width: 34px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+}
+
+.whatsapp .platform-icon {
+  background-image: url('./assets/whatsapp.svg');
+}
+.email .platform-icon {
+  background-image: url('./assets/mail.svg');
+}
+.linkedin .platform-icon {
+  background-image: url('./assets/in.svg');
+}
+.dribbble .platform-icon {
+  background-image: url('./assets/dribbble.svg');
+}
+
+.thank-you-note {
+  margin: 130px 0;
+}
+
+.thanks {
+  font-size: 30px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  background-color: #38344A;
+}
+
+.footer-quote-text {
+  color: white;
+}
+
+.footer-quote-by-text {
+  font-size: 14px;
+  color: #ffffff70;
+}

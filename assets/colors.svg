@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1366.079 511.544">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.042" y1="0.468" x2="0.102" y2="1.548" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff" stop-opacity="0.098"/>
+      <stop offset="1" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="1.059" y1="-0.166" x2="0.7" y2="0.918" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff" stop-opacity="0.051"/>
+      <stop offset="1" stop-color="#585858" stop-opacity="0.051"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_56" data-name="Group 56" transform="translate(0.088 -257)">
+    <g id="red" transform="translate(0 -0.842)">
+      <path id="red-2" data-name="red" d="M-.088,273.782s67.18-79.458,245.806,116.431S828.274,769.2,1044.275,769.2H-.088" opacity="0.797"/>
+      <path id="red-3" data-name="red" d="M-.088,268.043s67.18-50.852,245.806,74.514S828.274,585.1,1044.275,585.1H-.088" transform="translate(0 184.099)" fill="url(#linear-gradient)"/>
+      <path id="red-4" data-name="red" d="M-.088,262.978s67.18-25.6,245.806,37.514S828.274,422.6,1044.275,422.6H-.088" transform="translate(0 346.599)" fill="url(#linear-gradient)"/>
+    </g>
+    <g id="blue">
+      <path id="blue-2" data-name="blue" d="M354.566,768.544c295.152,0,817.583-291.717,1002.756-451.783,39.854-34.45,62.95-20.506,89.669,13.187v438.11Z" transform="translate(-81)" opacity="0.8"/>
+      <path id="blue-3" data-name="blue" d="M354.566,630.758c295.152,0,817.583-206.511,1002.756-319.824,39.854-24.388,62.95-14.517,89.669,9.335V630.414Z" transform="translate(-81 137.785)" fill="rgba(255,255,255,0.1)"/>
+      <path id="blue-4" data-name="blue" d="M354.566,469.558c295.152,0,817.583-106.825,1002.756-165.44,39.854-12.615,62.95-7.509,89.669,4.829V469.38Z" transform="translate(-81 298.985)" fill="url(#linear-gradient-3)"/>
+    </g>
+    <g id="yellow" transform="translate(-9.797 10.434)">
+      <path id="teal" d="M202.8,768.621s333.6-173.008,425.22-337.838,455.364,337.378,455.364,337.378Z" transform="translate(0 -11)" fill="#fb4132"/>
+      <path id="teal-2" data-name="teal" d="M202.8,723.062S536.4,571.3,628.017,426.7s455.364,295.954,455.364,295.954Z" transform="translate(0 34.559)" fill="#19ddbe" opacity="0.998"/>
+      <path id="teal-3" data-name="teal" d="M202.8,680.769s333.6-132.046,425.22-257.851,455.364,257.5,455.364,257.5Z" transform="translate(0 76.852)" fill="#6646ed"/>
+    </g>
+  </g>
+</svg>
